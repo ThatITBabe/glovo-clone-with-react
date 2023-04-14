@@ -1,0 +1,84 @@
+.svgz{
+    margin-bottom: 200px;
+}
+
+section{
+    position: relative;
+}
+
+.custom-shape-divider-top-1681322539 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1681322539 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1681322539 .shape-fill {
+    fill: #FFC244;
+}
+
+.appsegment{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.download-texts{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    /* padding-right: 48px; */
+    padding-left: 88px;
+    /* max-width: 570px; */
+}
+.download-texts h2{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.download-texts img{
+    width: 105px;
+    height: 122px;
+}
+
+.download-texts p{
+    text-align: center;
+    color: #000;
+    margin-bottom: 12px;
+    font-size: 16px;
+    /* line-height: 1.25; */
+    font-weight: 400;
+}
+
+.download-img img{
+    width: 670px;
+    height: 739px;
+}
+
+.appdownload{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 32px;
+    grid-gap: 16px;
+}
+
+.appdownload img{
+    width: 120px;
+    height: 40px;
+}

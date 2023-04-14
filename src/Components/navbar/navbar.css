@@ -1,0 +1,18 @@
+nav{
+    background: #ffC244;
+    /* height: 150px; */
+}
+
+img{
+    width: 100px;
+}
+
+.btn{
+    background-color: #00a082;
+    color: white;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    border-radius: 24px;
+}

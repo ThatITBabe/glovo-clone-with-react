@@ -1,0 +1,86 @@
+.why-glovo{
+    /* background-color: #000; */
+    /* margin: 200px auto; */
+    margin-bottom: 200px;
+}
+.why-glovo h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.why-us{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    margin: 12px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,420px));
+    grid-gap: 64px 32px;
+    justify-content: center;
+}
+
+.reason{
+    flex: 1 1 296px;
+    max-width: 356px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reason img{
+    width: 170px;
+    height: 136px;
+}
+.reason h3{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    margin: 0 0 8px;
+}
+
+.reason .text-marked{
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+mark{
+    background: transparent;
+    font-size: 16px;
+    color: marktext;
+
+}
+.highlighted{
+    background-color: #ffc244;
+    font-size: 16px;
+    border-radius: 100px;
+    padding: 0 4px;
+}
+
+
+.btnpoint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.why-glovo button{
+    background-color: #00a082;
+    color: white;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.14;
+    border-radius: 24px;
+    width: 20%;
+}
+.why-glovo .btn:hover{
+    color: #fff;
+    background-color: #006653FF;
+}

@@ -1,0 +1,126 @@
+.missionz{
+   background-color: #e9f8f5;
+
+}
+section{
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+.custom-shape-divider-bottom-1681346366 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1681346366 svg {
+    position: relative;
+    display: block;
+    width: calc(184% + 1.3px);
+    height: 201px;
+}
+
+.custom-shape-divider-bottom-1681346366 .shape-fill {
+    fill: #E9F8F5;
+}
+.mission svg{
+    position: absolute;
+    top: 3050px;
+    left: 50%;
+    /* transform: translate(-50%,-92%); */
+    width: 117px;
+    height: 80px;
+}
+.mission-text{
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    margin: 0 auto;
+    max-width: calc(1124px + 15%);
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    /* margin-bottom: 100px; */
+    /* background-color: #e9f8f5; */
+}
+.mission-text h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 32px;
+    padding-top: 50px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.mission-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 64px 50px;
+    margin-top: 80px;
+}
+.mission-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 24px;
+    gap: 24px;
+}
+.missionflyer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 24px;
+    gap: 24px;
+}
+
+.missionflyer img{
+    width: 308px;
+    height: 267px;
+}
+
+.missionflyer h3{
+    font-size: 24px;
+    line-height: 1.17;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: var(--helio-space-S);
+}
+
+.missionflyer p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.22;
+    font-weight: 400;
+}
+
+.mission-content button{
+    background-color: #00a082;
+    position: relative;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 3px 5px 0 #0000001a;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    min-width: 180px;
+    margin: 0 auto;
+    /* padding-bottom: 100px; */
+}
+button:hover{
+    background-color: #006653FF;
+}
